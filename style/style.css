@@ -179,7 +179,7 @@ input[type=checkbox] {
   background-color: #d700a650;
 }
 
-@media screen and (max-width: 470px) {
+@media(max-width: 470px) {
   body {
     padding: .5rem;
   }
