@@ -1,4 +1,4 @@
-<div align="center">
+<div style="margin:30px" align="center">
     <img src="./images/2560px-Logo_ORKUT.svg.png" />
 </div>
 
@@ -36,7 +36,7 @@ Este projeto foi desenvolvido com HTML e CSS.
 Estas são algumas demonstrações do projeto Orkut:
 
 <h2 align="center">Página de login</h2>
-<img src="./images/Captura de tela 2022-06-03 102103.png">
+<img src="./images/pagina.jpg">
 
 
 <br></br>
