@@ -1,28 +1,11 @@
 :root {
-  
+  background-color: #f462edac;
+  font-family: 'Nunito', sans-serif;
+  color: #272121;
 }
 
 body {
-  animation: gradient 10s ease infinite;
-  background: linear-gradient( -45deg, #f4ace5, #f462edac, #79356d, #b858eb) no-repeat;
-  background-size: 300% 300%;
-  font-family: 'Nunito', sans-serif;
-  color: #272121;
-  height: 93vh;
-}
-
-@keyframes gradient {
-  0% {
-    background-position: 0 50% ;
-  }
-
-  50% {
-    background-position: 100% 50% ;
-  }
-
-  100% {
-    background-position: 0 50% ;
-  }
+ 
 }
 
 .logo {
@@ -48,7 +31,7 @@ body {
   margin-top: 2rem;
   border-radius: 5%;
   background-color: aliceblue;
-  box-shadow:inset 0px 0px 30px 15px #9C83A3, 0px 0px 30px 0px #9C83A3;
+  box-shadow:inset 0px 0px 30px 10px #b0a1b5, 0px 0px 30px 1px #9709c2a9;
   padding: 1rem;
 }
 
@@ -88,9 +71,9 @@ body {
   height: 3rem;
   padding: 0 2rem;
   text-align: center;
-  font-size: 15px;
-  background-color: rgba(236, 189, 189, 0.314);
-  
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #ef2c9a;
   
 }
 
@@ -202,10 +185,6 @@ input[type=checkbox] {
 .field__inputs::placeholder {
   color: rgb(255, 255, 255);
   font-weight: 700;
-}
-
-.field__inputs {
-  background-color: #d700a650;
 }
 
 @media(max-width: 470px) {
