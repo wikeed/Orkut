@@ -1,11 +1,7 @@
 :root {
-  background-color: #f462edac;
+  background-color: rgba(250, 158, 245, 0.8);
   font-family: 'Nunito', sans-serif;
   color: #272121;
-}
-
-body {
- 
 }
 
 .logo {
@@ -35,6 +31,10 @@ body {
   padding: 1rem;
 }
 
+p {
+  font-weight: 600;
+}
+
 .fields {
   display: flex;
   flex-direction: column;
@@ -61,7 +61,7 @@ body {
   margin: auto;
   width: 100%;
   max-width: 22rem;
-  
+ 
 }
 
 .field__inputs {
@@ -72,9 +72,9 @@ body {
   padding: 0 2rem;
   text-align: center;
   font-size: 18px;
-  color: #ffffff;
+  color: #000000;
   background-color: #ef2c9a;
-  
+  font-weight: 700;
 }
 
 .field__remember {
@@ -139,8 +139,14 @@ body {
 
 }
 
+label {
+  font-weight: 600;
+  font-size: 18px;
+}
+
 a {
   text-decoration: none;
+  font-weight: 600;
 }
 
 a :hover {
@@ -174,7 +180,6 @@ input:checked + label {
 
 input:checked + label::after {
   content: "\2713";
-  font-weight: bolder;
   font-size: .9rem;
 }
 
